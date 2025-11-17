@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+    <!-- Homepage -->
     <url>
         <loc>https://rosariov25.github.io/my-shop/</loc>
+        <lastmod>2025-11-17</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://rosariov25.github.io/my-shop/product_001.html</loc>
+        <lastmod>2025-11-17</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://rosariov25.github.io/my-shop/images/product_001.png</image:loc>
+            <image:title>Premium T-Shirt Design</image:title>
+        </image:image>
     </url>
     <url>
         <loc>https://rosariov25.github.io/my-shop/product_002.html</loc>

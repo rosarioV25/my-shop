@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Wear - Print on Demand</title>
+    <meta name="description" content="La Delicious Wear perfetta per chi ama lo stile food. Comfort e stile in un'unica maglietta.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            margin-bottom: 40px;
+        }
+        .product-image {
+            text-align: center;
+        }
+        .product-image img {
+            max-width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        .product-image img:hover {
+            transform: scale(1.05);
+        }
+        .product-info h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .price {
+            font-size: 3em;
+            color: #667eea;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .description {
+            font-size: 1.2em;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .features {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+        .features li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+            font-size: 1.1em;
+        }
+        .features li:before {
+            content: "✓ ";
+            color: #28a745;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px 50px;
+            font-size: 1.3em;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.6);
+        }
+        .reviews {
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 2px solid #eee;
+        }
+        .review {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .review-stars {
+            color: #ffc107;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 768px) {
+            .product-grid { grid-template-columns: 1fr; gap: 30px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="product-grid">
+            <div class="product-image">
+                <img src="../../designs/design_1763397000_food.png" alt="Delicious Wear">
+            </div>
+            <div class="product-info">
+                <h1>Delicious Wear</h1>
+                <div class="price">€34.99</div>
+                <p class="description">Esprimi la tua passione con questa Delicious Wear! Design unico e di alta qualità che non passa inosservato.</p>
+                
+                <div class="features">
+                    <h3>🎨 Caratteristiche:</h3>
+                    <ul>
+                        <li>Design unico e originale</li>
+                        <li>Stampa ad alta definizione</li>
+                        <li>Tessuto 100% cotone premium</li>
+                        <li>Disponibile in vari colori</li>
+                        <li>Spedizione gratuita in Italia</li>
+                    </ul>
+                </div>
+                
+                <a href="#" class="cta-button">🛒 Ordina Ora</a>
+            </div>
+        </div>
+        
+        <div class="reviews">
+            <h2>⭐ Recensioni Clienti</h2>
+            <div class="review">
+                <div class="review-stars">★★★★★</div>
+                <p><strong>Marco R.</strong> - "Qualità eccezionale! Il design è ancora più bello dal vivo."</p>
+            </div>
+            <div class="review">
+                <div class="review-stars">★★★★☆</div>
+                <p><strong>Laura M.</strong> - "Molto soddisfatta dell'acquisto. Consegna veloce."</p>
+            </div>
+            <div class="review">
+                <div class="review-stars">★★★★★</div>
+                <p><strong>Giuseppe T.</strong> - "La migliore maglietta che abbia mai comprato!"</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

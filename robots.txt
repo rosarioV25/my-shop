@@ -1,4 +1,20 @@
 User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /*.json$
 
-Sitemap: https://TUOUSERNAME.github.io/my-shop/sitemap.xml
+# Crawl-delay per rispetto server
+Crawl-delay: 1
+
+# Sitemap principale
+Sitemap: https://rosariov25.github.io/my-shop/sitemap.xml
+
+# Bot specifici (ottimizzazione crawl budget)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+User-agent: Bingbot
+Allow: /
