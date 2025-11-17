@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Unique designs on sale! Premium quality, free shipping, limited stock.">
+    <meta property="og:image" content="https://rosariov25.github.io/my-shop/images/product_001.png">
+    <title>Premium Designs - 50% Off Sale!</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 50px 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+            font-size: 3em;
+            margin-bottom: 50px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .product-card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-10px);
+        }
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .product-title {
+            font-size: 1.3em;
+            color: #333;
+            margin-bottom: 20px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .price {
+            font-size: 2.5em;
+            color: #667eea;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .old-price {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 0.6em;
+        }
+        .cta-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 1.2em;
+            transition: all 0.3s;
+        }
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+        .sale-badge {
+            background: #ff6b6b;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 Premium Designs - 50% OFF!</h1>
+        <div class="products">
+
+            <div class="product-card">
+                <div class="sale-badge">⚡ 50% OFF</div>
+                <img src="images/product_001.png" alt="cute nature illustration bold" class="product-image">
+                <div class="product-title">CUTE NATURE ILLUSTRATION BOLD</div>
+                <div class="price">
+                    <span class="old-price">$49.98</span><br>
+                    $24.99
+                </div>
+                <a href="product_001.html" class="cta-button">View Details</a>
+            </div>
+
+            <div class="product-card">
+                <div class="sale-badge">⚡ 50% OFF</div>
+                <img src="images/product_002.png" alt="cute animals design" class="product-image">
+                <div class="product-title">CUTE ANIMALS DESIGN</div>
+                <div class="price">
+                    <span class="old-price">$49.98</span><br>
+                    $24.99
+                </div>
+                <a href="product_002.html" class="cta-button">View Details</a>
+            </div>
+
+            <div class="product-card">
+                <div class="sale-badge">⚡ 50% OFF</div>
+                <img src="images/product_003.png" alt="cute typography illustration bold" class="product-image">
+                <div class="product-title">CUTE TYPOGRAPHY ILLUSTRATION BOLD</div>
+                <div class="price">
+                    <span class="old-price">$49.98</span><br>
+                    $24.99
+                </div>
+                <a href="product_003.html" class="cta-button">View Details</a>
+            </div>
+
+            <div class="product-card">
+                <div class="sale-badge">⚡ 50% OFF</div>
+                <img src="images/product_004.png" alt="minimalist abstract modern art" class="product-image">
+                <div class="product-title">MINIMALIST ABSTRACT MODERN ART</div>
+                <div class="price">
+                    <span class="old-price">$49.98</span><br>
+                    $24.99
+                </div>
+                <a href="product_004.html" class="cta-button">View Details</a>
+            </div>
+
+            <div class="product-card">
+                <div class="sale-badge">⚡ 50% OFF</div>
+                <img src="images/product_005.png" alt="bold motivational design" class="product-image">
+                <div class="product-title">BOLD MOTIVATIONAL DESIGN</div>
+                <div class="price">
+                    <span class="old-price">$49.98</span><br>
+                    $24.99
+                </div>
+                <a href="product_005.html" class="cta-button">View Details</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

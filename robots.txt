@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://TUOUSERNAME.github.io/my-shop/sitemap.xml
